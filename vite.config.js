@@ -7,4 +7,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/ai-themepark-demo/',
+  server: {
+    port: 3000,
+    open: true
+  }
 })
